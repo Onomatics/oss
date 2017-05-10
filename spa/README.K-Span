@@ -1,0 +1,42 @@
+K-Span © 2002 Copyright University of Maryland. All Rights Reserved. 
+Licensed under the Open Software License version 1.1
+
+K-Span is a PC-Kimmo based morphological Analyzer for Spanish coupled 
+with an English dicitonary providing glosses for Spanish lexemes.
+K-Span has been developed by Bonnie Dorr, University of Maryland.
+
+Contents of this package:
+
+README  This file.
+
+ktext   K-text text tokenizer
+        Available from SIL.org http://www.sil.org/computing/catalog/ktext.html
+        Included in this package for Unix systems under SIL's freeware license:
+        <a href="http://www.sil.org/computing/catalog/freeware.html">
+         http://www.sil.org/computing/catalog/freeware.html</a>
+
+pckimmo PC-Kimmo engine
+        Available from SIL.org http://www.sil.org/computing/catalog/show_software.asp?id=33
+        Included in this package for Unix systems under SIL's freeware license:
+        http://www.sil.org/computing/catalog/freeware.html
+
+newspan.dic     Spanish Kimmo lexicon (and Spanish-English dicitonary)
+spanish.aut     Spanish morphology automata 
+sptxtin.ctl     Ktext Spanish text input tokenization rules
+spanish.ctl     General control file for Ktext 
+
+sp2kimmo.pl     Spanish to Kimmo Spanish encoding mapper
+kimmo2sp.pl     Kimmo Spanish encoding to Spanish mapper
+
+ma.pl   A top level script to access all these components:
+        ma.pl <input-file>
+
+test            Test file
+test.k          Test file output after Ktext
+test.ana        Output file (analyses)
+test.log        Log file
+
+OSLicense.txt   Text of Open Software License version 1.1
+
+K-Span © 2002 Copyright University of Maryland. All Rights Reserved.
+Licensed under the Open Software License version 1.1 (see OSLicense.txt)
